@@ -1,0 +1,139 @@
+﻿* {
+   padding: 0;
+    margin: 0;
+           
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #1b2d35,#0b1d26);
+}
+
+.hero {
+  
+}
+
+    .hero::before {
+        content: "";
+        background-image: url("images/HG.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 900px;
+        top: 0px;
+        right: 0px;
+        transform: translateY(-50%);
+        left: 0px;
+        opacity: 0.4;
+    }
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+   
+}
+
+.navbar {
+   margin:20px;
+    padding: 0 !important;
+
+}
+
+.navbar-brand {
+    height: 40px;
+    color: #fff !important;
+    padding-left: 20px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color:#fff !important;
+    font-weight:600;
+    float:right;
+    text-align:left;
+}
+.fa-bars{
+    color:#fff;
+    font-size:30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+}
+
+
+.img-mask {
+    -webkit-mask-size: 100px 730px;
+    -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(2.0, rgba(0,0,0,-1)), color-stop(0.7, rgba(0,0,0,1)));
+    height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transform: translateY(10%);
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+.title {
+    margin-top: 100px;
+}
+
+/*------About Us section------*/
+
+#about-us {
+    padding-bottom: 50px;
+}
+
+.about-title{
+    color:white;
+    font-size:50px;
+    font-weight:600;
+    
+}
+.about-description{
+    color:white;
+}
+.img-fluid {
+    height: 200px;
+}
+
+/*------Blog section------*/
+
+#blog {
+    padding-bottom: 50px;
+    padding-top: 8%;
+}
+
+.blog-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.blog-description {
+    color: white;
+}
+
+.img-fluid {
+    height: 200px;
+}
+
+/*------footer section------*/
+
+#footer {
+    padding-bottom: 50px;
+    padding-top: 4%;
+}
+.footer-title {
+    height: 40px;
+    color: #fff !important;
+    font-size: 25px;
+}
+.div.col-md-4:nth-child(1){
+    width:200%;
+}
